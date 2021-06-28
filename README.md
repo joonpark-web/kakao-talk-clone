@@ -1,4 +1,5 @@
 # Kakao Talk clone 2020
 
 Joonyoung Park's Kakao talk clone
-fsdfsdfs
+
+HTML and CSS are so much fun!
