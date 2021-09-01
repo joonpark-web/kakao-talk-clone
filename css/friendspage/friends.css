@@ -38,4 +38,5 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+  width: 120px;
 }

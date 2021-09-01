@@ -25,7 +25,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.5);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .user-component__img--xl {
@@ -45,4 +45,18 @@
 
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatphoto {
+  border-radius: 18px;
+  width: 45px;
+  height: 45px;
+}
+
+.time {
+  display: block;
+  margin-bottom: 10px;
 }

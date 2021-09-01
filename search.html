@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - Kakao Talk</title>
+    <title>Find - Kakao Talk</title>
 </head>
 
 <body>
-    this is search.
+
 
     <div class="status-bar">
         <div class="status-bar__column">
@@ -30,23 +30,89 @@
         </div>
     </div>
 
+    <header class="header">
+        <h1 class="header__title">Find</h1>
+        <div class="header__icons-find">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+            <span class="badge-search"></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fas fa-qrcode fa-2x"></i>
+                <span class="search-icon">QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-address-book fa-2x"></i>
+                <span class="search-icon">Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-fingerprint fa-2x"></i>
+                <span class="search-icon">Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-envelope fa-2x"></i>
+                <span class="search-icon">Invite</span>
+            </div>
+
+        </div>
+
+        <div class="recommended">
+            <h6 class="recommended-friends">Recommended Friends</h6>
+            <span class="recommended-text">You have no recommended friends.</span>
+        </div>
+
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i></span>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtag">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="screenshots/channellogo.png">
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <a target="_blank" href="https://usbtsarmy.com/">
+                            <img src="screenshots/bts.jpeg">
+                        </a>
+                        <div class="heart">
+                            <i class="fas fa-heart"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
 
     <!-- 네비게이션 기본 양식: icons 생성-->
     <!-- nav>ul>li*4>a 단축키-->
-    <nav class="nav">
+    <nav class=" nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fas fa-user fa-lg"></i>
-                </a>
+                    <i class="far fa-user fa-lg"></i> </a>
             </li>
 
             <li class="nav__btn">
                 <a class="nav__link" href="chat.html">
-                    <span class="nav__notification">1</span>
-                    <i class="far fa-comment fa-lg"></i>
-                </a>
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-lg"></i></a>
             </li>
 
             <li class="nav__btn">
